@@ -1,3 +1,16 @@
+# SCEMS Investor Demo
+
+This frontend is the investor-facing dashboard for the Smart City Environmental Management System. It works in software-only mode by seeding demo scenarios from the backend.
+
+## Demo flow
+
+1. Start the backend in `scem-backend/`.
+2. Start the frontend in `scems-frontend/`.
+3. Use the scenario buttons in the dashboard to load `Normal day`, `Festival surge`, or `Rain-risk day`.
+4. Watch the KPI cards, route summary, telemetry stream, and map update from the seeded data.
+
+## Available scripts
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
