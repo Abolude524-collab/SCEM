@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.status-ok {
+  color: green;
+  font-weight: bold;
+}
+
+.status-alert {
+  color: red;
+  font-weight: bold;
+}
+
+.map-container {
+  margin: 30px auto;
+  width: 90%;
+  height: 400px;
+  border-radius: 10px;
+  overflow: hidden;
+}

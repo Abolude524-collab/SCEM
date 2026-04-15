@@ -1,0 +1,12 @@
+# Frontend dependencies/build artifacts
+scems-frontend/node_modules/
+scems-frontend/build/
+scems-frontend/coverage/
+
+# Python artifacts
+**/__pycache__/
+*.pyc
+
+# Local env files
+.env
+.env.*
